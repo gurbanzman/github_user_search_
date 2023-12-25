@@ -1,0 +1,115 @@
+/*
+   Desktop version
+*/
+
+@media screen and (min-width:1440px) {
+   .main__about{
+      margin-left: 16% !important;
+   }
+
+   .username__about{
+      width: 45% !important;
+   }
+}
+
+@media screen and (max-width:1440px) {
+   .main{
+      width: 70% !important;
+   }
+}
+
+@media screen and (max-width:1194px) {
+   .main__about{
+      margin-top: 4% !important;
+      margin-left: 0 !important;
+   }
+}
+
+@media screen and (max-width:1038px) {
+   .main__footer{
+      gap: 15px 40px !important;
+   }
+
+   .username__about{
+      width: 40%;
+   }
+}
+
+
+/*
+   Tablet version
+*/
+
+@media screen and (max-width:874px) {
+   .username__data-subtitle{
+      position: relative !important;
+   }
+}
+
+@media screen and (max-width:768px) {
+   .main__article{
+      padding: 30px !important;
+   }
+
+   .main__form{
+      padding: 10px 7px 10px 15px !important;
+   }
+
+   .form__input {
+      font-size: 15px !important;
+   }
+
+   .form__btn {
+      padding: 10px !important;
+   }
+}
+
+
+
+/*
+   Mobile version
+*/
+
+@media screen and (max-width:578px) {
+
+   .main{
+      width: 90% !important;
+   }
+
+   .main__about{
+      margin-top: 8% !important;
+   }
+
+   .username__key,
+   .user__title{
+      font-size: 16px !important;
+   }
+
+
+   .form__input,
+   .user__name,
+   .username__data-subtitle,
+   .main__subtitle{
+      font-size: 13px !important;
+   }
+
+   .username__value{
+      font-size: 11px !important;
+   }
+}
+
+@media screen and (max-width:400px) {
+
+   .main__article{
+      padding: 10px !important;
+   }
+
+   .username__github{
+      padding: 15px 30px !important;
+   }
+
+   .main__profil{
+      width: 70px !important;
+      height: 70px !important;
+   }
+}
